@@ -3,19 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sabores Naturais - Alimentos Frescos e Saudáveis</title>
+    <title>NaturalFresh - Sabores Naturais para Sua Vida Saudável</title>
     <meta name="description" content="Alimentos frescos e nutritivos com morango e tomate cereja. Sabores naturais para uma vida mais saudável.">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
     <header class="header" id="header">
         <nav class="nav container">
             <div class="nav__logo">
-                <img src="/placeholder.svg?height=50&width=120" alt="Sabores Naturais Logo" class="logo-img">
-                <span class="logo-text">Sabores Naturais</span>
+                <div class="logo-wrapper">
+                    <svg class="logo-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Background Circle -->
+                        <circle cx="40" cy="40" r="38" fill="url(#bgGradient)" stroke="url(#borderGradient)" stroke-width="2"/>
+                        
+                        <!-- Decorative Leaves -->
+                        <path d="M25 20 Q30 15, 35 20 Q30 25, 25 20" fill="url(#leafGradient1)" opacity="0.8"/>
+                        <path d="M55 20 Q60 15, 65 20 Q60 25, 55 20" fill="url(#leafGradient2)" opacity="0.8"/>
+                        
+                        <!-- Strawberry -->
+                        <ellipse cx="30" cy="45" rx="10" ry="12" fill="url(#strawberryGradient)"/>
+                        <!-- Strawberry leaves -->
+                        <path d="M30 33 L27 28 L30 26 L33 28 Z" fill="#2d5016"/>
+                        <path d="M28 30 L32 30 L31 32 L29 32 Z" fill="#4a7c59"/>
+                        <!-- Strawberry seeds -->
+                        <ellipse cx="27" cy="42" rx="1" ry="1.5" fill="#8B0000" opacity="0.7"/>
+                        <ellipse cx="33" cy="44" rx="1" ry="1.5" fill="#8B0000" opacity="0.7"/>
+                        <ellipse cx="30" cy="48" rx="1" ry="1.5" fill="#8B0000" opacity="0.7"/>
+                        <ellipse cx="26" cy="46" rx="1" ry="1.5" fill="#8B0000" opacity="0.7"/>
+                        <ellipse cx="34" cy="47" rx="1" ry="1.5" fill="#8B0000" opacity="0.7"/>
+                        
+                        <!-- Cherry Tomato -->
+                        <circle cx="50" cy="45" r="9" fill="url(#tomatoGradient)"/>
+                        <!-- Tomato stem -->
+                        <path d="M50 36 L48 32 L50 30 L52 32 Z" fill="#2d5016"/>
+                        <path d="M47 34 L53 34 L52 36 L48 36 Z" fill="#4a7c59"/>
+                        <!-- Tomato highlight -->
+                        <ellipse cx="47" cy="41" rx="2" ry="3" fill="rgba(255,255,255,0.3)"/>
+                        
+                        <!-- Central Leaf Accent -->
+                        <path d="M40 25 Q45 30, 40 35 Q35 30, 40 25" fill="url(#centerLeafGradient)" opacity="0.6"/>
+                        
+                        <!-- Gradients -->
+                        <defs>
+                            <radialGradient id="bgGradient" cx="50%" cy="30%">
+                                <stop offset="0%" style="stop-color:#ffffff"/>
+                                <stop offset="100%" style="stop-color:#f8fffe"/>
+                            </radialGradient>
+                            
+                            <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#ff6b6b"/>
+                                <stop offset="50%" style="stop-color:#4ecdc4"/>
+                                <stop offset="100%" style="stop-color:#45b7d1"/>
+                            </linearGradient>
+                            
+                            <linearGradient id="strawberryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#ff6b6b"/>
+                                <stop offset="30%" style="stop-color:#ee5a52"/>
+                                <stop offset="100%" style="stop-color:#c44569"/>
+                            </linearGradient>
+                            
+                            <radialGradient id="tomatoGradient" cx="30%" cy="30%">
+                                <stop offset="0%" style="stop-color:#ff7675"/>
+                                <stop offset="70%" style="stop-color:#d63031"/>
+                                <stop offset="100%" style="stop-color:#a29bfe"/>
+                            </radialGradient>
+                            
+                            <linearGradient id="leafGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#00b894"/>
+                                <stop offset="100%" style="stop-color:#00a085"/>
+                            </linearGradient>
+                            
+                            <linearGradient id="leafGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#55a3ff"/>
+                                <stop offset="100%" style="stop-color:#003d82"/>
+                            </linearGradient>
+                            
+                            <linearGradient id="centerLeafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#26de81"/>
+                                <stop offset="100%" style="stop-color:#20bf6b"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-name">NaturalFresh</span>
+                    <span class="brand-tagline">Sabores Autênticos</span>
+                </div>
             </div>
             
             <div class="nav__menu" id="nav-menu">
@@ -54,25 +130,59 @@
     <section class="hero" id="home">
         <div class="hero__container container">
             <div class="hero__content">
+                <div class="hero__badge">
+                    <i class="fas fa-leaf"></i>
+                    <span>100% Natural & Orgânico</span>
+                </div>
                 <h1 class="hero__title">
-                    Sabores Naturais para Sua <span class="text-primary">Vida Saudável</span>
+                    Sabores Naturais para Sua <span class="text-gradient">Vida Saudável</span>
                 </h1>
                 <p class="hero__description">
                     Alimentos frescos e nutritivos, com a leveza do morango e a doçura do tomate cereja. 
                     Descubra o sabor autêntico da natureza em cada mordida.
                 </p>
                 <div class="hero__buttons">
-                    <a href="#cardapio" class="btn btn-primary btn-large">Experimente Agora</a>
-                    <a href="#sobre" class="btn btn-outline btn-large">Saiba Mais</a>
+                    <a href="#cardapio" class="btn btn-primary btn-large">
+                        <i class="fas fa-utensils"></i>
+                        Experimente Agora
+                    </a>
+                    <a href="#sobre" class="btn btn-outline btn-large">
+                        <i class="fas fa-play"></i>
+                        Veja o Cardápio
+                    </a>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__number">5+</span>
+                        <span class="stat__label">Anos de Experiência</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">1000+</span>
+                        <span class="stat__label">Clientes Satisfeitos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">100%</span>
+                        <span class="stat__label">Ingredientes Naturais</span>
+                    </div>
                 </div>
             </div>
             <div class="hero__image">
-                <img src="/placeholder.svg?height=500&width=600" alt="Morangos frescos e tomates cereja" class="hero__img">
-                <div class="hero__image-decoration"></div>
+                <div class="hero__image-wrapper">
+                    <img src="/placeholder.svg?height=600&width=500" alt="Morangos frescos e tomates cereja" class="hero__img">
+                    <div class="hero__floating-card hero__floating-card--1">
+                        <i class="fas fa-heart"></i>
+                        <span>Rico em Antioxidantes</span>
+                    </div>
+                    <div class="hero__floating-card hero__floating-card--2">
+                        <i class="fas fa-leaf"></i>
+                        <span>100% Orgânico</span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="hero__scroll">
-            <a href="#sobre" class="scroll-down">
+            <a href="#sobre" class="scroll-indicator">
+                <span>Role para baixo</span>
                 <i class="fas fa-chevron-down"></i>
             </a>
         </div>
@@ -82,15 +192,16 @@
     <section class="about section" id="sobre">
         <div class="container">
             <div class="section__header">
+                <span class="section__badge">Nossa História</span>
                 <h2 class="section__title">Sobre Nossa Empresa</h2>
-                <p class="section__subtitle">Comprometidos com a qualidade e frescor dos nossos produtos</p>
+                <p class="section__subtitle">Comprometidos com a qualidade e frescor dos nossos produtos há mais de 5 anos</p>
             </div>
             
             <div class="about__container">
                 <div class="about__content">
                     <h3 class="about__title">Nossa Missão</h3>
                     <p class="about__description">
-                        Na Sabores Naturais, acreditamos que a alimentação saudável deve ser saborosa e acessível. 
+                        Na NaturalFresh, acreditamos que a alimentação saudável deve ser saborosa e acessível. 
                         Cultivamos nossos morangos e tomates cereja com técnicas sustentáveis, garantindo produtos 
                         frescos, nutritivos e cheios de sabor para sua mesa.
                     </p>
@@ -100,93 +211,191 @@
                     </p>
                     <div class="about__features">
                         <div class="feature">
-                            <i class="fas fa-leaf feature__icon"></i>
-                            <span>100% Natural</span>
+                            <div class="feature__icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="feature__content">
+                                <h4>Cultivo Sustentável</h4>
+                                <p>Técnicas ecológicas que preservam o meio ambiente</p>
+                            </div>
                         </div>
                         <div class="feature">
-                            <i class="fas fa-heart feature__icon"></i>
-                            <span>Rico em Nutrientes</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-seedling feature__icon"></i>
-                            <span>Cultivo Sustentável</span>
+                            <div class="feature__icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="feature__content">
+                                <h4>Rico em Nutrientes</h4>
+                                <p>Alimentos naturalmente ricos em vitaminas e minerais</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="about__image">
-                    <img src="/placeholder.svg?height=400&width=500" alt="Equipe cultivando produtos naturais" class="about__img">
+                    <div class="about__image-wrapper">
+                        <img src="/placeholder.svg?height=500&width=600" alt="Equipe cultivando produtos naturais" class="about__img">
+                        <div class="about__experience">
+                            <span class="experience__number">5+</span>
+                            <span class="experience__text">Anos de<br>Experiência</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Produtos Section -->
-    <section class="products section" id="produtos">
+    <!-- Cardápio e Produtos Section -->
+    <section class="products section" id="cardapio">
         <div class="container">
             <div class="section__header">
-                <h2 class="section__title">Nossos Produtos</h2>
-                <p class="section__subtitle">Sabores únicos criados com ingredientes frescos e naturais</p>
+                <span class="section__badge">Nosso Cardápio</span>
+                <h2 class="section__title">Nossos Produtos Especiais</h2>
+                <p class="section__subtitle">Sabores únicos criados com ingredientes frescos e naturais, direto da nossa horta</p>
             </div>
             
             <div class="products__container">
                 <div class="product__card">
                     <div class="product__image">
-                        <img src="/placeholder.svg?height=250&width=300" alt="Smoothie de Morango" class="product__img">
-                        <div class="product__badge">Mais Vendido</div>
+                        <img src="/placeholder.svg?height=280&width=350" alt="Smoothie de Morango" class="product__img">
+                        <div class="product__badge product__badge--popular">Mais Vendido</div>
+                        <div class="product__overlay">
+                            <button class="btn btn-white">Ver Detalhes</button>
+                        </div>
                     </div>
                     <div class="product__content">
+                        <div class="product__category">Bebidas</div>
                         <h3 class="product__title">Smoothie de Morango</h3>
                         <p class="product__description">
-                            Delicioso smoothie feito com morangos frescos, iogurte natural e mel. 
-                            Rico em vitamina C e antioxidantes.
+                            Delicioso smoothie feito com morangos frescos, iogurte natural e mel orgânico. 
+                            Rico em vitamina C e antioxidantes naturais.
                         </p>
-                        <div class="product__price">R$ 12,90</div>
-                        <button class="btn btn-primary product__btn">Peça Agora</button>
+                        <div class="product__footer">
+                            <div class="product__price">R$ 12,90</div>
+                            <button class="btn btn-primary product__btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                Peça Agora
+                            </button>
+                        </div>
                     </div>
                 </div>
 
                 <div class="product__card">
                     <div class="product__image">
-                        <img src="/placeholder.svg?height=250&width=300" alt="Salada de Tomate Cereja" class="product__img">
+                        <img src="/placeholder.svg?height=280&width=350" alt="Salada de Tomate Cereja" class="product__img">
+                        <div class="product__badge product__badge--new">Novidade</div>
+                        <div class="product__overlay">
+                            <button class="btn btn-white">Ver Detalhes</button>
+                        </div>
                     </div>
                     <div class="product__content">
+                        <div class="product__category">Saladas</div>
                         <h3 class="product__title">Salada Especial</h3>
                         <p class="product__description">
-                            Salada fresca com tomates cereja, rúcula, queijo de cabra e vinagrete especial. 
-                            Leve e nutritiva.
+                            Mix de folhas verdes com tomates cereja, queijo de cabra, nozes e vinagrete especial da casa. 
+                            Leve, nutritiva e saborosa.
                         </p>
-                        <div class="product__price">R$ 18,90</div>
-                        <button class="btn btn-primary product__btn">Peça Agora</button>
+                        <div class="product__footer">
+                            <div class="product__price">R$ 18,90</div>
+                            <button class="btn btn-primary product__btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                Peça Agora
+                            </button>
+                        </div>
                     </div>
                 </div>
 
                 <div class="product__card">
                     <div class="product__image">
-                        <img src="/placeholder.svg?height=250&width=300" alt="Suco Natural Misto" class="product__img">
+                        <img src="/placeholder.svg?height=280&width=350" alt="Suco Natural Detox" class="product__img">
+                        <div class="product__overlay">
+                            <button class="btn btn-white">Ver Detalhes</button>
+                        </div>
                     </div>
                     <div class="product__content">
-                        <h3 class="product__title">Suco Natural Misto</h3>
+                        <div class="product__category">Sucos</div>
+                        <h3 class="product__title">Suco Natural Detox</h3>
                         <p class="product__description">
-                            Combinação perfeita de morango e tomate cereja em um suco refrescante e nutritivo. 
-                            Sem açúcar adicionado.
+                            Combinação perfeita de morango, tomate cereja e hortelã em um suco refrescante. 
+                            Sem açúcar adicionado, apenas o doce natural das frutas.
                         </p>
-                        <div class="product__price">R$ 9,90</div>
-                        <button class="btn btn-primary product__btn">Peça Agora</button>
+                        <div class="product__footer">
+                            <div class="product__price">R$ 9,90</div>
+                            <button class="btn btn-primary product__btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                Peça Agora
+                            </button>
+                        </div>
                     </div>
                 </div>
 
                 <div class="product__card">
                     <div class="product__image">
-                        <img src="/placeholder.svg?height=250&width=300" alt="Bowl Nutritivo" class="product__img">
+                        <img src="/placeholder.svg?height=280&width=350" alt="Bowl de Açaí Premium" class="product__img">
+                        <div class="product__overlay">
+                            <button class="btn btn-white">Ver Detalhes</button>
+                        </div>
                     </div>
                     <div class="product__content">
-                        <h3 class="product__title">Bowl Nutritivo</h3>
+                        <div class="product__category">Bowls</div>
+                        <h3 class="product__title">Bowl de Açaí Premium</h3>
                         <p class="product__description">
-                            Bowl completo com granola, morangos frescos, tomates cereja e sementes. 
-                            Perfeito para um café da manhã saudável.
+                            Açaí puro com morangos frescos, granola artesanal, mel orgânico e castanhas. 
+                            Perfeito para um café da manhã energético e saudável.
                         </p>
-                        <div class="product__price">R$ 16,90</div>
-                        <button class="btn btn-primary product__btn">Peça Agora</button>
+                        <div class="product__footer">
+                            <div class="product__price">R$ 15,90</div>
+                            <button class="btn btn-primary product__btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                Peça Agora
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product__card">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=280&width=350" alt="Wrap Saudável" class="product__img">
+                        <div class="product__overlay">
+                            <button class="btn btn-white">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product__content">
+                        <div class="product__category">Wraps</div>
+                        <h3 class="product__title">Wrap Saudável</h3>
+                        <p class="product__description">
+                            Wrap integral com tomate cereja, rúcula, peito de peru, cream cheese e molho especial. 
+                            Opção perfeita para um almoço leve e nutritivo.
+                        </p>
+                        <div class="product__footer">
+                            <div class="product__price">R$ 14,90</div>
+                            <button class="btn btn-primary product__btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                Peça Agora
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product__card">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=280&width=350" alt="Vitamina Energética" class="product__img">
+                        <div class="product__overlay">
+                            <button class="btn btn-white">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product__content">
+                        <div class="product__category">Vitaminas</div>
+                        <h3 class="product__title">Vitamina Energética</h3>
+                        <p class="product__description">
+                            Vitamina com morango, banana, aveia e leite de amêndoas para energia natural. 
+                            Ideal para começar o dia com disposição e vitalidade.
+                        </p>
+                        <div class="product__footer">
+                            <div class="product__price">R$ 11,90</div>
+                            <button class="btn btn-primary product__btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                Peça Agora
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -197,8 +406,9 @@
     <section class="benefits section" id="beneficios">
         <div class="container">
             <div class="section__header">
+                <span class="section__badge">Benefícios</span>
                 <h2 class="section__title">Por Que Morango e Tomate Cereja?</h2>
-                <p class="section__subtitle">Descubra os incríveis benefícios desses superalimentos</p>
+                <p class="section__subtitle">Descubra os incríveis benefícios para sua saúde desses superalimentos naturais</p>
             </div>
             
             <div class="benefits__container">
@@ -206,11 +416,15 @@
                     <div class="benefit__icon">
                         <i class="fas fa-heart"></i>
                     </div>
-                    <h3 class="benefit__title">Rico em Antioxidantes</h3>
+                    <h3 class="benefit__title">Rico em Vitamina C</h3>
                     <p class="benefit__description">
-                        Os morangos são ricos em vitamina C e antioxidantes que combatem os radicais livres 
-                        e fortalecem o sistema imunológico.
+                        O morango contém mais vitamina C que a laranja, fortalecendo seu sistema imunológico 
+                        e combatendo os radicais livres naturalmente.
                     </p>
+                    <div class="benefit__stats">
+                        <span class="stats__number">150%</span>
+                        <span class="stats__label">da necessidade diária</span>
+                    </div>
                 </div>
 
                 <div class="benefit__card">
@@ -220,19 +434,27 @@
                     <h3 class="benefit__title">Proteção Cardiovascular</h3>
                     <p class="benefit__description">
                         O tomate cereja é rico em licopeno, um poderoso antioxidante essencial para a 
-                        saúde cardiovascular e prevenção de doenças.
+                        saúde cardiovascular e prevenção de doenças do coração.
                     </p>
+                    <div class="benefit__stats">
+                        <span class="stats__number">40%</span>
+                        <span class="stats__label">redução de riscos</span>
+                    </div>
                 </div>
 
                 <div class="benefit__card">
                     <div class="benefit__icon">
-                        <i class="fas fa-leaf"></i>
+                        <i class="fas fa-weight"></i>
                     </div>
                     <h3 class="benefit__title">Baixo em Calorias</h3>
                     <p class="benefit__description">
                         Ambos os ingredientes são naturalmente baixos em calorias e ricos em fibras, 
-                        perfeitos para uma alimentação equilibrada.
+                        perfeitos para manter uma alimentação equilibrada e saudável.
                     </p>
+                    <div class="benefit__stats">
+                        <span class="stats__number">32</span>
+                        <span class="stats__label">calorias por 100g</span>
+                    </div>
                 </div>
 
                 <div class="benefit__card">
@@ -241,9 +463,13 @@
                     </div>
                     <h3 class="benefit__title">Saúde Mental</h3>
                     <p class="benefit__description">
-                        Os nutrientes presentes nos morangos ajudam na função cerebral e podem 
-                        melhorar a memória e concentração.
+                        Os nutrientes presentes nos morangos ajudam na função cerebral, melhoram a 
+                        memória e concentração, além de combater o estresse oxidativo.
                     </p>
+                    <div class="benefit__stats">
+                        <span class="stats__number">25%</span>
+                        <span class="stats__label">melhora na memória</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -253,13 +479,14 @@
     <section class="testimonials section">
         <div class="container">
             <div class="section__header">
+                <span class="section__badge">Depoimentos</span>
                 <h2 class="section__title">O Que Nossos Clientes Dizem</h2>
-                <p class="section__subtitle">Experiências reais de quem já provou nossos produtos</p>
+                <p class="section__subtitle">Experiências reais de quem já transformou sua alimentação com nossos produtos</p>
             </div>
             
             <div class="testimonials__container">
                 <div class="testimonial__card">
-                    <div class="testimonial__content">
+                    <div class="testimonial__header">
                         <div class="testimonial__stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -267,22 +494,27 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <p class="testimonial__text">
-                            "Os smoothies são incríveis! Nunca provei algo tão fresco e saboroso. 
-                            Agora faço parte da minha rotina diária de café da manhã."
-                        </p>
-                        <div class="testimonial__author">
-                            <img src="/placeholder.svg?height=60&width=60" alt="Maria Silva" class="testimonial__img">
-                            <div class="testimonial__info">
-                                <h4 class="testimonial__name">Maria Silva</h4>
-                                <span class="testimonial__job">Nutricionista</span>
+                        <div class="testimonial__rating">5.0</div>
+                    </div>
+                    <p class="testimonial__text">
+                        "Os smoothies são incríveis! Nunca provei algo tão fresco e saboroso. 
+                        Agora faço parte da minha rotina diária de café da manhã. Recomendo muito!"
+                    </p>
+                    <div class="testimonial__author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Maria Silva" class="testimonial__img">
+                        <div class="testimonial__info">
+                            <h4 class="testimonial__name">Maria Silva</h4>
+                            <span class="testimonial__job">Nutricionista</span>
+                            <div class="testimonial__verified">
+                                <i class="fas fa-check-circle"></i>
+                                Cliente Verificado
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="testimonial__card">
-                    <div class="testimonial__content">
+                    <div class="testimonial__header">
                         <div class="testimonial__stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -290,22 +522,27 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <p class="testimonial__text">
-                            "A salada especial é perfeita para o almoço. Ingredientes fresquíssimos 
-                            e uma combinação de sabores única. Recomendo muito!"
-                        </p>
-                        <div class="testimonial__author">
-                            <img src="/placeholder.svg?height=60&width=60" alt="João Santos" class="testimonial__img">
-                            <div class="testimonial__info">
-                                <h4 class="testimonial__name">João Santos</h4>
-                                <span class="testimonial__job">Chef de Cozinha</span>
+                        <div class="testimonial__rating">5.0</div>
+                    </div>
+                    <p class="testimonial__text">
+                        "A salada especial é perfeita para o almoço. Ingredientes fresquíssimos 
+                        e uma combinação de sabores única. A qualidade é excepcional!"
+                    </p>
+                    <div class="testimonial__author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="João Santos" class="testimonial__img">
+                        <div class="testimonial__info">
+                            <h4 class="testimonial__name">João Santos</h4>
+                            <span class="testimonial__job">Chef de Cozinha</span>
+                            <div class="testimonial__verified">
+                                <i class="fas fa-check-circle"></i>
+                                Cliente Verificado
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="testimonial__card">
-                    <div class="testimonial__content">
+                    <div class="testimonial__header">
                         <div class="testimonial__stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -313,15 +550,20 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <p class="testimonial__text">
-                            "Produtos de qualidade excepcional! Minha família adora os sucos naturais. 
-                            É saúde e sabor em cada gole."
-                        </p>
-                        <div class="testimonial__author">
-                            <img src="/placeholder.svg?height=60&width=60" alt="Ana Costa" class="testimonial__img">
-                            <div class="testimonial__info">
-                                <h4 class="testimonial__name">Ana Costa</h4>
-                                <span class="testimonial__job">Mãe de Família</span>
+                        <div class="testimonial__rating">5.0</div>
+                    </div>
+                    <p class="testimonial__text">
+                        "Produtos de qualidade excepcional! Minha família adora os sucos naturais. 
+                        É saúde e sabor em cada gole. Entrega sempre pontual!"
+                    </p>
+                    <div class="testimonial__author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Ana Costa" class="testimonial__img">
+                        <div class="testimonial__info">
+                            <h4 class="testimonial__name">Ana Costa</h4>
+                            <span class="testimonial__job">Mãe de Família</span>
+                            <div class="testimonial__verified">
+                                <i class="fas fa-check-circle"></i>
+                                Cliente Verificado
                             </div>
                         </div>
                     </div>
@@ -330,27 +572,62 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
+    <!-- CTA Final Section -->
     <section class="cta section">
         <div class="container">
             <div class="cta__container">
                 <div class="cta__content">
-                    <h2 class="cta__title">Pronto para Experimentar?</h2>
+                    <h2 class="cta__title">Pronto para uma Vida Mais Saudável?</h2>
                     <p class="cta__description">
                         Faça seu pedido agora e descubra o sabor autêntico dos nossos produtos naturais. 
-                        Entrega rápida e ingredientes sempre frescos!
+                        Entrega rápida, ingredientes sempre frescos e satisfação garantida!
                     </p>
-                    <a href="#cardapio" class="btn btn-primary btn-large">Peça Seu Prato Agora</a>
+                    <div class="cta__features">
+                        <div class="cta__feature">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>Entrega Rápida</span>
+                        </div>
+                        <div class="cta__feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>100% Natural</span>
+                        </div>
+                        <div class="cta__feature">
+                            <i class="fas fa-medal"></i>
+                            <span>Qualidade Garantida</span>
+                        </div>
+                    </div>
+                    <a href="#cardapio" class="btn btn-primary btn-large cta__button">
+                        <i class="fas fa-shopping-cart"></i>
+                        Peça Seu Prato Agora
+                    </a>
                 </div>
                 
                 <div class="newsletter">
+                    <div class="newsletter__icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
                     <h3 class="newsletter__title">Receba Nossas Novidades</h3>
-                    <p class="newsletter__description">Cadastre-se e receba promoções exclusivas e novidades</p>
+                    <p class="newsletter__description">
+                        Cadastre-se e receba promoções exclusivas, novidades e dicas de alimentação saudável
+                    </p>
                     <form class="newsletter__form" id="newsletter-form">
-                        <input type="text" placeholder="Seu nome" class="newsletter__input" required>
-                        <input type="email" placeholder="Seu e-mail" class="newsletter__input" required>
-                        <button type="submit" class="btn btn-secondary">Cadastrar</button>
+                        <div class="form__group">
+                            <input type="text" placeholder="Seu nome completo" class="newsletter__input" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" placeholder="Seu melhor e-mail" class="newsletter__input" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Quero Receber Novidades
+                        </button>
                     </form>
+                    <p class="newsletter__privacy">
+                        <i class="fas fa-lock"></i>
+                        Seus dados estão seguros conosco
+                    </p>
                 </div>
             </div>
         </div>
@@ -362,11 +639,88 @@
             <div class="footer__container">
                 <div class="footer__content">
                     <div class="footer__logo">
-                        <img src="/placeholder.svg?height=40&width=100" alt="Sabores Naturais" class="footer__logo-img">
-                        <span class="footer__logo-text">Sabores Naturais</span>
+                        <div class="logo-wrapper footer-logo">
+                            <svg class="logo-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Background Circle -->
+                                <circle cx="40" cy="40" r="38" fill="url(#bgGradientFooter)" stroke="url(#borderGradientFooter)" stroke-width="2"/>
+                                
+                                <!-- Decorative Leaves -->
+                                <path d="M25 20 Q30 15, 35 20 Q30 25, 25 20" fill="url(#leafGradient1Footer)" opacity="0.8"/>
+                                <path d="M55 20 Q60 15, 65 20 Q60 25, 55 20" fill="url(#leafGradient2Footer)" opacity="0.8"/>
+                                
+                                <!-- Strawberry -->
+                                <ellipse cx="30" cy="45" rx="10" ry="12" fill="url(#strawberryGradientFooter)"/>
+                                <!-- Strawberry leaves -->
+                                <path d="M30 33 L27 28 L30 26 L33 28 Z" fill="#2d5016"/>
+                                <path d="M28 30 L32 30 L31 32 L29 32 Z" fill="#4a7c59"/>
+                                <!-- Strawberry seeds -->
+                                <ellipse cx="27" cy="42" rx="1" ry="1.5" fill="#8B0000" opacity="0.7"/>
+                                <ellipse cx="33" cy="44" rx="1" ry="1.5" fill="#8B0000" opacity="0.7"/>
+                                <ellipse cx="30" cy="48" rx="1" ry="1.5" fill="#8B0000" opacity="0.7"/>
+                                <ellipse cx="26" cy="46" rx="1" ry="1.5" fill="#8B0000" opacity="0.7"/>
+                                <ellipse cx="34" cy="47" rx="1" ry="1.5" fill="#8B0000" opacity="0.7"/>
+                                
+                                <!-- Cherry Tomato -->
+                                <circle cx="50" cy="45" r="9" fill="url(#tomatoGradientFooter)"/>
+                                <!-- Tomato stem -->
+                                <path d="M50 36 L48 32 L50 30 L52 32 Z" fill="#2d5016"/>
+                                <path d="M47 34 L53 34 L52 36 L48 36 Z" fill="#4a7c59"/>
+                                <!-- Tomato highlight -->
+                                <ellipse cx="47" cy="41" rx="2" ry="3" fill="rgba(255,255,255,0.3)"/>
+                                
+                                <!-- Central Leaf Accent -->
+                                <path d="M40 25 Q45 30, 40 35 Q35 30, 40 25" fill="url(#centerLeafGradientFooter)" opacity="0.6"/>
+                                
+                                <!-- Gradients -->
+                                <defs>
+                                    <radialGradient id="bgGradientFooter" cx="50%" cy="30%">
+                                        <stop offset="0%" style="stop-color:#ffffff"/>
+                                        <stop offset="100%" style="stop-color:#f8fffe"/>
+                                    </radialGradient>
+                                    
+                                    <linearGradient id="borderGradientFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#ff6b6b"/>
+                                        <stop offset="50%" style="stop-color:#4ecdc4"/>
+                                        <stop offset="100%" style="stop-color:#45b7d1"/>
+                                    </linearGradient>
+                                    
+                                    <linearGradient id="strawberryGradientFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#ff6b6b"/>
+                                        <stop offset="30%" style="stop-color:#ee5a52"/>
+                                        <stop offset="100%" style="stop-color:#c44569"/>
+                                    </linearGradient>
+                                    
+                                    <radialGradient id="tomatoGradientFooter" cx="30%" cy="30%">
+                                        <stop offset="0%" style="stop-color:#ff7675"/>
+                                        <stop offset="70%" style="stop-color:#d63031"/>
+                                        <stop offset="100%" style="stop-color:#a29bfe"/>
+                                    </radialGradient>
+                                    
+                                    <linearGradient id="leafGradient1Footer" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#00b894"/>
+                                        <stop offset="100%" style="stop-color:#00a085"/>
+                                    </linearGradient>
+                                    
+                                    <linearGradient id="leafGradient2Footer" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#55a3ff"/>
+                                        <stop offset="100%" style="stop-color:#003d82"/>
+                                    </linearGradient>
+                                    
+                                    <linearGradient id="centerLeafGradientFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#26de81"/>
+                                        <stop offset="100%" style="stop-color:#20bf6b"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <span class="brand-name footer-brand">NaturalFresh</span>
+                            <span class="brand-tagline footer-tagline">Sabores Autênticos</span>
+                        </div>
                     </div>
                     <p class="footer__description">
-                        Alimentos frescos e naturais para uma vida mais saudável e saborosa.
+                        Alimentos frescos e naturais para uma vida mais saudável e saborosa. 
+                        Comprometidos com a qualidade e sustentabilidade desde 2019.
                     </p>
                     <div class="footer__social">
                         <a href="#" class="footer__social-link">
@@ -381,16 +735,20 @@
                         <a href="#" class="footer__social-link">
                             <i class="fab fa-whatsapp"></i>
                         </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </div>
                 </div>
 
                 <div class="footer__links">
                     <h4 class="footer__title">Links Rápidos</h4>
                     <ul class="footer__list">
-                        <li><a href="#sobre" class="footer__link">Sobre</a></li>
-                        <li><a href="#produtos" class="footer__link">Produtos</a></li>
+                        <li><a href="#sobre" class="footer__link">Sobre Nós</a></li>
+                        <li><a href="#cardapio" class="footer__link">Cardápio</a></li>
                         <li><a href="#beneficios" class="footer__link">Benefícios</a></li>
                         <li><a href="#contato" class="footer__link">Contato</a></li>
+                        <li><a href="#" class="footer__link">Blog</a></li>
                     </ul>
                 </div>
 
@@ -399,31 +757,54 @@
                     <div class="footer__contact-info">
                         <div class="contact__item">
                             <i class="fas fa-phone"></i>
-                            <span>(11) 99999-9999</span>
+                            <div class="contact__details">
+                                <span>(11) 99999-9999</span>
+                                <small>Segunda a Sábado, 8h às 18h</small>
+                            </div>
                         </div>
                         <div class="contact__item">
                             <i class="fas fa-envelope"></i>
-                            <span>contato@saboresnaturais.com</span>
+                            <div class="contact__details">
+                                <span>contato@naturalfresh.com</span>
+                                <small>Resposta em até 2 horas</small>
+                            </div>
                         </div>
                         <div class="contact__item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Rua das Frutas, 123 - São Paulo, SP</span>
+                            <div class="contact__details">
+                                <span>Rua das Frutas, 123</span>
+                                <small>São Paulo, SP - CEP 01234-567</small>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="footer__legal">
-                    <h4 class="footer__title">Legal</h4>
+                    <h4 class="footer__title">Informações</h4>
                     <ul class="footer__list">
                         <li><a href="#" class="footer__link">Política de Privacidade</a></li>
                         <li><a href="#" class="footer__link">Termos de Serviço</a></li>
                         <li><a href="#" class="footer__link">Política de Cookies</a></li>
+                        <li><a href="#" class="footer__link">Trocas e Devoluções</a></li>
+                        <li><a href="#" class="footer__link">FAQ</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer__bottom">
-                <p>&copy; 2024 Sabores Naturais. Todos os direitos reservados.</p>
+                <div class="footer__bottom-content">
+                    <p>&copy; 2024 NaturalFresh. Todos os direitos reservados.</p>
+                    <div class="footer__certifications">
+                        <span class="certification">
+                            <i class="fas fa-certificate"></i>
+                            Certificado Orgânico
+                        </span>
+                        <span class="certification">
+                            <i class="fas fa-leaf"></i>
+                            100% Natural
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
