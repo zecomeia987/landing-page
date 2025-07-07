@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores Naturais - Alimentos Frescos e Saudáveis</title>
+    <meta name="description" content="Alimentos frescos e nutritivos com morango e tomate cereja. Sabores naturais para uma vida mais saudável.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="/placeholder.svg?height=50&width=120" alt="Sabores Naturais Logo" class="logo-img">
+                <span class="logo-text">Sabores Naturais</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#sobre" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#cardapio" class="nav__link">Cardápio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#produtos" class="nav__link">Produtos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#beneficios" class="nav__link">Benefícios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contato" class="nav__link">Contato</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__actions">
+                <a href="#cardapio" class="btn btn-primary">Peça Agora</a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Sabores Naturais para Sua <span class="text-primary">Vida Saudável</span>
+                </h1>
+                <p class="hero__description">
+                    Alimentos frescos e nutritivos, com a leveza do morango e a doçura do tomate cereja. 
+                    Descubra o sabor autêntico da natureza em cada mordida.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#cardapio" class="btn btn-primary btn-large">Experimente Agora</a>
+                    <a href="#sobre" class="btn btn-outline btn-large">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="/placeholder.svg?height=500&width=600" alt="Morangos frescos e tomates cereja" class="hero__img">
+                <div class="hero__image-decoration"></div>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <a href="#sobre" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="about section" id="sobre">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Sobre Nossa Empresa</h2>
+                <p class="section__subtitle">Comprometidos com a qualidade e frescor dos nossos produtos</p>
+            </div>
+            
+            <div class="about__container">
+                <div class="about__content">
+                    <h3 class="about__title">Nossa Missão</h3>
+                    <p class="about__description">
+                        Na Sabores Naturais, acreditamos que a alimentação saudável deve ser saborosa e acessível. 
+                        Cultivamos nossos morangos e tomates cereja com técnicas sustentáveis, garantindo produtos 
+                        frescos, nutritivos e cheios de sabor para sua mesa.
+                    </p>
+                    <p class="about__description">
+                        Nosso processo de cultivo respeita o meio ambiente e prioriza a qualidade nutricional, 
+                        oferecendo alimentos que fazem bem para você e para o planeta.
+                    </p>
+                    <div class="about__features">
+                        <div class="feature">
+                            <i class="fas fa-leaf feature__icon"></i>
+                            <span>100% Natural</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart feature__icon"></i>
+                            <span>Rico em Nutrientes</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-seedling feature__icon"></i>
+                            <span>Cultivo Sustentável</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image">
+                    <img src="/placeholder.svg?height=400&width=500" alt="Equipe cultivando produtos naturais" class="about__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Section -->
+    <section class="products section" id="produtos">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Nossos Produtos</h2>
+                <p class="section__subtitle">Sabores únicos criados com ingredientes frescos e naturais</p>
+            </div>
+            
+            <div class="products__container">
+                <div class="product__card">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=250&width=300" alt="Smoothie de Morango" class="product__img">
+                        <div class="product__badge">Mais Vendido</div>
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Smoothie de Morango</h3>
+                        <p class="product__description">
+                            Delicioso smoothie feito com morangos frescos, iogurte natural e mel. 
+                            Rico em vitamina C e antioxidantes.
+                        </p>
+                        <div class="product__price">R$ 12,90</div>
+                        <button class="btn btn-primary product__btn">Peça Agora</button>
+                    </div>
+                </div>
+
+                <div class="product__card">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=250&width=300" alt="Salada de Tomate Cereja" class="product__img">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Salada Especial</h3>
+                        <p class="product__description">
+                            Salada fresca com tomates cereja, rúcula, queijo de cabra e vinagrete especial. 
+                            Leve e nutritiva.
+                        </p>
+                        <div class="product__price">R$ 18,90</div>
+                        <button class="btn btn-primary product__btn">Peça Agora</button>
+                    </div>
+                </div>
+
+                <div class="product__card">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=250&width=300" alt="Suco Natural Misto" class="product__img">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Suco Natural Misto</h3>
+                        <p class="product__description">
+                            Combinação perfeita de morango e tomate cereja em um suco refrescante e nutritivo. 
+                            Sem açúcar adicionado.
+                        </p>
+                        <div class="product__price">R$ 9,90</div>
+                        <button class="btn btn-primary product__btn">Peça Agora</button>
+                    </div>
+                </div>
+
+                <div class="product__card">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=250&width=300" alt="Bowl Nutritivo" class="product__img">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Bowl Nutritivo</h3>
+                        <p class="product__description">
+                            Bowl completo com granola, morangos frescos, tomates cereja e sementes. 
+                            Perfeito para um café da manhã saudável.
+                        </p>
+                        <div class="product__price">R$ 16,90</div>
+                        <button class="btn btn-primary product__btn">Peça Agora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios Section -->
+    <section class="benefits section" id="beneficios">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Por Que Morango e Tomate Cereja?</h2>
+                <p class="section__subtitle">Descubra os incríveis benefícios desses superalimentos</p>
+            </div>
+            
+            <div class="benefits__container">
+                <div class="benefit__card">
+                    <div class="benefit__icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="benefit__title">Rico em Antioxidantes</h3>
+                    <p class="benefit__description">
+                        Os morangos são ricos em vitamina C e antioxidantes que combatem os radicais livres 
+                        e fortalecem o sistema imunológico.
+                    </p>
+                </div>
+
+                <div class="benefit__card">
+                    <div class="benefit__icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="benefit__title">Proteção Cardiovascular</h3>
+                    <p class="benefit__description">
+                        O tomate cereja é rico em licopeno, um poderoso antioxidante essencial para a 
+                        saúde cardiovascular e prevenção de doenças.
+                    </p>
+                </div>
+
+                <div class="benefit__card">
+                    <div class="benefit__icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3 class="benefit__title">Baixo em Calorias</h3>
+                    <p class="benefit__description">
+                        Ambos os ingredientes são naturalmente baixos em calorias e ricos em fibras, 
+                        perfeitos para uma alimentação equilibrada.
+                    </p>
+                </div>
+
+                <div class="benefit__card">
+                    <div class="benefit__icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="benefit__title">Saúde Mental</h3>
+                    <p class="benefit__description">
+                        Os nutrientes presentes nos morangos ajudam na função cerebral e podem 
+                        melhorar a memória e concentração.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testemunhos Section -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">O Que Nossos Clientes Dizem</h2>
+                <p class="section__subtitle">Experiências reais de quem já provou nossos produtos</p>
+            </div>
+            
+            <div class="testimonials__container">
+                <div class="testimonial__card">
+                    <div class="testimonial__content">
+                        <div class="testimonial__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial__text">
+                            "Os smoothies são incríveis! Nunca provei algo tão fresco e saboroso. 
+                            Agora faço parte da minha rotina diária de café da manhã."
+                        </p>
+                        <div class="testimonial__author">
+                            <img src="/placeholder.svg?height=60&width=60" alt="Maria Silva" class="testimonial__img">
+                            <div class="testimonial__info">
+                                <h4 class="testimonial__name">Maria Silva</h4>
+                                <span class="testimonial__job">Nutricionista</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__card">
+                    <div class="testimonial__content">
+                        <div class="testimonial__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial__text">
+                            "A salada especial é perfeita para o almoço. Ingredientes fresquíssimos 
+                            e uma combinação de sabores única. Recomendo muito!"
+                        </p>
+                        <div class="testimonial__author">
+                            <img src="/placeholder.svg?height=60&width=60" alt="João Santos" class="testimonial__img">
+                            <div class="testimonial__info">
+                                <h4 class="testimonial__name">João Santos</h4>
+                                <span class="testimonial__job">Chef de Cozinha</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__card">
+                    <div class="testimonial__content">
+                        <div class="testimonial__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial__text">
+                            "Produtos de qualidade excepcional! Minha família adora os sucos naturais. 
+                            É saúde e sabor em cada gole."
+                        </p>
+                        <div class="testimonial__author">
+                            <img src="/placeholder.svg?height=60&width=60" alt="Ana Costa" class="testimonial__img">
+                            <div class="testimonial__info">
+                                <h4 class="testimonial__name">Ana Costa</h4>
+                                <span class="testimonial__job">Mãe de Família</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="container">
+            <div class="cta__container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Pronto para Experimentar?</h2>
+                    <p class="cta__description">
+                        Faça seu pedido agora e descubra o sabor autêntico dos nossos produtos naturais. 
+                        Entrega rápida e ingredientes sempre frescos!
+                    </p>
+                    <a href="#cardapio" class="btn btn-primary btn-large">Peça Seu Prato Agora</a>
+                </div>
+                
+                <div class="newsletter">
+                    <h3 class="newsletter__title">Receba Nossas Novidades</h3>
+                    <p class="newsletter__description">Cadastre-se e receba promoções exclusivas e novidades</p>
+                    <form class="newsletter__form" id="newsletter-form">
+                        <input type="text" placeholder="Seu nome" class="newsletter__input" required>
+                        <input type="email" placeholder="Seu e-mail" class="newsletter__input" required>
+                        <button type="submit" class="btn btn-secondary">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__content">
+                    <div class="footer__logo">
+                        <img src="/placeholder.svg?height=40&width=100" alt="Sabores Naturais" class="footer__logo-img">
+                        <span class="footer__logo-text">Sabores Naturais</span>
+                    </div>
+                    <p class="footer__description">
+                        Alimentos frescos e naturais para uma vida mais saudável e saborosa.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__links">
+                    <h4 class="footer__title">Links Rápidos</h4>
+                    <ul class="footer__list">
+                        <li><a href="#sobre" class="footer__link">Sobre</a></li>
+                        <li><a href="#produtos" class="footer__link">Produtos</a></li>
+                        <li><a href="#beneficios" class="footer__link">Benefícios</a></li>
+                        <li><a href="#contato" class="footer__link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__contact">
+                    <h4 class="footer__title">Contato</h4>
+                    <div class="footer__contact-info">
+                        <div class="contact__item">
+                            <i class="fas fa-phone"></i>
+                            <span>(11) 99999-9999</span>
+                        </div>
+                        <div class="contact__item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@saboresnaturais.com</span>
+                        </div>
+                        <div class="contact__item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Rua das Frutas, 123 - São Paulo, SP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__legal">
+                    <h4 class="footer__title">Legal</h4>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Política de Privacidade</a></li>
+                        <li><a href="#" class="footer__link">Termos de Serviço</a></li>
+                        <li><a href="#" class="footer__link">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 Sabores Naturais. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
